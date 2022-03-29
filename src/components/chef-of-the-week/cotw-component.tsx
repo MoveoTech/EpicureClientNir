@@ -26,12 +26,10 @@ const CotwComponent = () => {
 
       setChefOfTheWeek(chefOfTheWeek[0].chefOfTheWeek);
       getChefRestaurants(chefOfTheWeek[0].chefOfTheWeek._id);
-      console.log(chefOfTheWeek[0].chefOfTheWeek._id);
     }
 
     async function getChefRestaurants(id: IChef["_id"]) {
       let chefRestaurants = await fetchSpecificChefRestaurants(id);
-      console.log(chefRestaurants);
       setChefRestaurants(chefRestaurants);
     }
 
@@ -90,11 +88,13 @@ const CotwComponent = () => {
   return (
     <div className="chefCompContainer">
       <div className="chefCon">
-        <img alt="" className="chefImg" src={chefOfTheWeek?.image} />
+        <img alt="" className="chefImg" src={chefOfTheWeek?.img} />
         <span className="description">{chefOfTheWeek?.description}</span>
       </div>
       <div className="chefsRestaurantsCon">
-        <div className="chefsRestaurants">Yossi’s restaurants :</div>
+        <div className="chefsRestaurants">
+          {chefOfTheWeek?.name}’s restaurants :
+        </div>
         <div className="cotwSliderCon">
           <Slider {...carouselSettings}>
             {chefRestaurants.map((restaurant, i) => {

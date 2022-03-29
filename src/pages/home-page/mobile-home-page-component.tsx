@@ -35,25 +35,15 @@ const HomePage = () => {
   useEffect(() => {
     async function getPopRestaurants() {
       let popRestaurants = await fetchPopRestaurants();
-      console.log(popRestaurants);
       setPopRestaurants(popRestaurants);
     }
     async function getRestaurants() {
       let restaurants = await fetchAllRestaurants();
-      console.log(restaurants);
       setRestaurants(restaurants);
     }
     getPopRestaurants();
     getRestaurants();
   }, []);
-  // useEffect(() => {
-  //   const getPopRestaurants = async () => {
-  //     const popRestaurants: IRestaurant[] = await fetchPopRestaurants();
-  //     console.log(popRestaurants);
-  //     setRestaurants(popRestaurants);
-  //   };
-  //   getPopRestaurants();
-  // }, []);
 
   const carouselSettings = {
     dots: true,

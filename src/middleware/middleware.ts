@@ -22,7 +22,6 @@ export const fetchPopRestaurants = async () => {
 export const fetchSpecificRestaurants = async () => {
   let specificRestaurant;
   await axios.get(`${BASE_URL}restaurants/:id`).then((res) => {
-    console.log(res.data);
     specificRestaurant = res.data;
   });
   return specificRestaurant;
@@ -31,7 +30,6 @@ export const fetchSpecificRestaurants = async () => {
 export const fetchAllChefs = async () => {
   let allChefs;
   await axios.get(`${BASE_URL}chefs/`).then((res) => {
-    console.log(res.data);
     allChefs = res.data;
   });
   return allChefs;
@@ -40,7 +38,6 @@ export const fetchAllChefs = async () => {
 export const fetchSpecificChef = async () => {
   let specificChef;
   await axios.get(`${BASE_URL}chefs/:id`).then((res) => {
-    console.log(res.data);
     specificChef = res.data;
   });
   return specificChef;

@@ -58,8 +58,8 @@ const CardComponent = (props: any) => {
 
       {props.cardType === "chefs" && (
         <div className="chefCard">
-          <div className="chefCardImg">
-            <img alt="" src={props.img} />
+          <div className="chefCardImgCon">
+            <img className="chefCardImg" alt="" src={props.img} />
           </div>
           <div className="chefsCardText">
             <div className="yossisRes">{props.resName}</div>

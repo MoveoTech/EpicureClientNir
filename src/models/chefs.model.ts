@@ -1,6 +1,6 @@
 export interface IChef {
   name: string;
-  image: string;
+  img: string;
   description: string;
   _id: string;
 }

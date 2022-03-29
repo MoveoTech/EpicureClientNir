@@ -1,18 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0774d441.css",
-    "main.js": "/static/js/main.d2c8d939.js",
+    "main.js": "/static/js/main.098bc366.js",
     "static/js/787.220fe630.chunk.js": "/static/js/787.220fe630.chunk.js",
     "static/media/hero-picture.png": "/static/media/hero-picture.2baad19a860ff5a07774.png",
-    "static/media/claro.png": "/static/media/claro.b47e6fa4b14627aabe6a.png",
-    "static/media/SmokedPizza.jpg": "/static/media/SmokedPizza.95e28ed610d9e5d75a4a.jpg",
-    "static/media/GarbanzoFrito.jpg": "/static/media/GarbanzoFrito.770f265be2f130625029.jpg",
-    "static/media/screen-shot-2019-01-06-at-10-55-45.png": "/static/media/screen-shot-2019-01-06-at-10-55-45.373739290e57f2236d0b.png",
-    "static/media/screen-shot-2019-01-06-at-10-57-26.png": "/static/media/screen-shot-2019-01-06-at-10-57-26.7df29cca7bece696e9fe.png",
-    "static/media/PadKiMao.jpg": "/static/media/PadKiMao.758ff851871689687def.jpg",
-    "static/media/tiger-lili.jpg": "/static/media/tiger-lili.50ca35db5b2642069a17.jpg",
-    "static/media/screen-shot-2019-01-03-at-18-28-50.png": "/static/media/screen-shot-2019-01-03-at-18-28-50.1fd0c387fe51acfcb451.png",
-    "static/media/mizlala-gret-mullet-fillet.jpg": "/static/media/mizlala-gret-mullet-fillet.b27a7b17a57bc83c5309.jpg",
     "static/media/HelveticaNeue.ttf": "/static/media/HelveticaNeue.50a6cd509ab1a89a5956.ttf",
     "static/media/HelveticaNeueThin.ttf": "/static/media/HelveticaNeueThin.c4606aee9e3d876bc645.ttf",
     "static/media/about-logo@3x.png": "/static/media/about-logo@3x.551bb2564134cb7aefe5.png",
@@ -28,11 +19,11 @@
     "static/media/bag-icon.svg": "/static/media/bag-icon.cd4c38243a3b911a84a15beeab528c95.svg",
     "static/media/path.svg": "/static/media/path.e5f49e703b88fb2eb5190036e0f44972.svg",
     "main.0774d441.css.map": "/static/css/main.0774d441.css.map",
-    "main.d2c8d939.js.map": "/static/js/main.d2c8d939.js.map",
+    "main.098bc366.js.map": "/static/js/main.098bc366.js.map",
     "787.220fe630.chunk.js.map": "/static/js/787.220fe630.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0774d441.css",
-    "static/js/main.d2c8d939.js"
+    "static/js/main.098bc366.js"
   ]
 }
