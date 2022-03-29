@@ -1,0 +1,213 @@
+%cardStyling {
+  width: 259.2px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cardImgCon {
+    width: 259.2px;
+  }
+
+  .cardImg {
+    width: inherit;
+  }
+
+  .chefCard {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    height: 100%;
+    width: 231px;
+    position: relative;
+    bottom: 20px;
+    margin-top: 20px;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .chefCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 231px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  h2 {
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    font-weight: 100px;
+    letter-spacing: 2.14px;
+    text-align: center;
+    color: var(--black);
+  }
+}
+
+///////////////////
+
+.PopResCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+  @extend %cardStyling;
+}
+
+.cardImgCon {
+  width: 259.2px;
+}
+
+.cardImg {
+  width: 259.2px;
+}
+
+// .chefCard {
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//   height: 100%;
+//   width: 231px;
+//   margin-top: 20px;
+//   position: relative;
+//   bottom: 20px;
+// }
+
+.restaurantsCardText {
+  height: 150px;
+  text-align: center;
+  background-color: var(--beige);
+}
+
+.dishesCardText {
+  height: 382px;
+  text-align: center;
+  background-color: var(--beige);
+}
+
+.chefsCardText {
+  height: 133px;
+  text-align: center;
+  background-color: var(--beige);
+}
+
+.legendIconImg {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+
+.dishPrice {
+  position: relative;
+  width: 100%;
+  bottom: 40px;
+  font-family: HelveticaNeue;
+  font-size: 25px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1.08px;
+  text-align: justify;
+  color: var(--black);
+}
+
+.dishName {
+  position: relative;
+  width: 200px;
+  top: 20px;
+  margin: auto;
+  font-family: HelveticaNeue;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.67px;
+  text-align: center;
+  color: var(--black);
+}
+
+.resName {
+  position: relative;
+  top: 20px;
+  font-size: 35px;
+  font-family: HelveticaNeue;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.67px;
+  text-align: center;
+  color: var(--black);
+}
+
+.resChef {
+  position: relative;
+  top: 25px;
+  font-size: 20px;
+  font-family: HelveticaNeue;
+  font-size: 25px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.67px;
+  text-align: center;
+  color: var(--black);
+}
+
+.yossisRes {
+  position: relative;
+  top: 19.2px;
+  width: 116px;
+  margin: auto;
+  font-family: HelveticaNeue;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--black);
+}
+
+.cardHead {
+  font-family: HelveticaNeue;
+  font-size: 30px;
+  font-weight: 100px;
+  letter-spacing: 2.14px;
+  text-align: center;
+  color: var(--black);
+}
+
+.dishesCard {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  height: 627px;
+  width: 259.2px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.dishDescription {
+  width: 240px;
+  height: 160px;
+  margin: 50px auto 0 auto;
+  font-family: HelveticaNeue;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 1.2;
+  letter-spacing: 1.08px;
+  color: var(--black);
+}
+
+.PopResCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 259.2px;
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  bottom: 20px;
+  margin-top: 20px;
+}

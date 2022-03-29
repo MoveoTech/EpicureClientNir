@@ -1,0 +1,553 @@
+@import "../../index.scss";
+
+%storeIcons {
+  position: relative;
+  float: left;
+}
+
+@media only screen and (min-width: 1000px) {
+  .CardsContainer {
+    width: 850px;
+  }
+
+  .mobileNavBtns {
+    display: none;
+  }
+
+  .restaurantsTitle {
+    width: 615px;
+    height: 40px;
+    margin: auto;
+    margin-top: 140px;
+    margin-bottom: 42px;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1.33;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: var(--black);
+  }
+
+  .allRestaurants {
+    position: relative;
+    display: inline-block;
+    left: 425px;
+    top: 31px;
+    height: 35px;
+    margin: 0 12px 0 0;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: var(--black);
+  }
+
+  .legend {
+    width: 100vw;
+    height: 260px;
+    margin-top: 109px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+    background-color: #fafafa;
+  }
+
+  .legendTitle {
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.14px;
+    text-align: center;
+    color: var(--black);
+  }
+
+  .Vegetarian {
+    width: 60px;
+    height: 60px;
+    margin: 0px 111.8px 30px 104.6px;
+    object-fit: contain;
+  }
+
+  .AULogo {
+    margin-left: 182px;
+  }
+
+  .AUContent {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AUDescription {
+    width: 567px;
+    font-family: HelveticaNeue;
+    height: 269px;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 1.69px;
+    margin-bottom: 23px;
+    text-align: justify;
+    color: var(--black);
+  }
+
+  .appDownloadBtnsCon {
+    position: relative;
+    display: inline-block;
+    right: 275px;
+    top: 46px;
+  }
+
+  .legal {
+    display: flex;
+    flex-direction: row;
+    height: 94px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .terms {
+    width: 117px;
+    height: 21px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.13px;
+    color: var(--black);
+    margin-bottom: 18px;
+  }
+
+  .Privacy {
+    width: 117px;
+    height: 21px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.13px;
+    color: var(--black);
+    margin-bottom: 18px;
+  }
+
+  .contact {
+    width: 117px;
+    height: 21px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.13px;
+    color: var(--black);
+    margin-bottom: 18px;
+  }
+
+  .chefOfTheWeek {
+    width: 33%;
+    height: 35px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    color: var(--black);
+  }
+
+  .dishesTitle {
+    width: 313px;
+    height: 30px;
+    margin: auto;
+    margin-top: 153px;
+    margin-bottom: 42px;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: var(--black);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .CardsContainer {
+    width: 700px;
+  }
+
+  .allRestaurants {
+    display: none;
+  }
+
+  .restaurantsTitle {
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    margin-top: 140px;
+    margin-bottom: 42px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.33;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: var(--black);
+  }
+
+  .legend {
+    width: 100vw;
+    height: 260px;
+    margin-top: 109px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+    background-color: #fafafa;
+  }
+
+  .legendTitle {
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.14px;
+    text-align: center;
+    color: var(--black);
+  }
+
+  .Vegetarian {
+    width: 60px;
+    height: 60px;
+    margin: 0px 111.8px 30px 104.6px;
+    object-fit: contain;
+  }
+
+  .AUContent {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AUDescription {
+    width: 90vw;
+    font-family: HelveticaNeue;
+    height: 250px;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1.69px;
+    margin-bottom: 23px;
+    text-align: center;
+    color: var(--black);
+  }
+
+  .appDownloadBtnsCon {
+    position: relative;
+    display: inline-block;
+    top: 46px;
+  }
+
+  .appDownloadBtns {
+    width: 400px;
+  }
+
+  .legal {
+    display: flex;
+    flex-direction: column;
+    height: 126px;
+    margin-top: 23px;
+    padding: 1px 0 23px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contact {
+    width: 117px;
+    height: 21px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.13px;
+    color: var(--black);
+    margin: 18px 0 22px 0;
+  }
+
+  .terms {
+    width: 117px;
+    height: 21px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.13px;
+    color: var(--black);
+    margin-bottom: 18px;
+  }
+
+  .Privacy {
+    width: 117px;
+    height: 21px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.13px;
+    color: var(--black);
+    margin-bottom: 18px;
+  }
+
+  .chefOfTheWeek {
+    width: 45%;
+    height: 35px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    color: var(--black);
+  }
+
+  .dishesTitle {
+    width: 313px;
+    height: 30px;
+    margin: auto;
+    margin-top: 153px;
+    margin-bottom: 42px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: var(--black);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .CardsContainer {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .CardsContainer {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .CardsContainer {
+    width: 400px;
+  }
+
+  .Vegetarian {
+    width: 60px;
+    height: 60px;
+    margin: 0px 70.8px 33px 70.6px;
+    object-fit: contain;
+  }
+
+  .legendTitle {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .CardsContainer {
+    width: 110vw;
+  }
+}
+
+.HomePage {
+  width: 100%;
+  height: 100%;
+  padding: 1px 0 0;
+  background-color: var(--white);
+}
+
+.mobileNavBtns {
+  width: 100%;
+  @extend %CentererRow;
+  height: 125px;
+  padding: 40px 0px 42px 0px;
+  opacity: 0.9;
+  gap: 17px;
+  background-color: #fafafa;
+}
+
+.chefBtn {
+  width: 76px;
+  height: 43px;
+  padding: 15px 11px 13px 17px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--sand-80);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.chefBtnTxt {
+  width: 48px;
+  height: 15px;
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  letter-spacing: 0.93px;
+  color: var(--black);
+}
+
+.restaurantBtn {
+  width: 131px;
+  height: 43px;
+  padding: 15px 14px 13px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--sand-80);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.restaurantBtnTxt {
+  width: 103px;
+  height: 15px;
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  letter-spacing: 0.93px;
+  color: var(--black);
+}
+
+.signatureDishesCon {
+  @extend %CentererColumn;
+  height: 975px;
+}
+
+.popRestaurantsCon {
+  @extend %CentererColumn;
+}
+
+.legendText {
+  font-family: HelveticaNeue;
+  font-size: 25.2px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.94px;
+  text-align: center;
+  color: var(--black);
+}
+
+.Vegan {
+  width: 67px;
+  height: 67px;
+  margin: 0 2.9px 26.6px 5.1px;
+  object-fit: contain;
+}
+
+.Spicy {
+  width: 80px;
+  height: 61px;
+  margin: 0 0 29px;
+  object-fit: contain;
+}
+
+.legendCon {
+  margin-top: 29.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurantHeader {
+  position: relative;
+  width: 100%;
+  bottom: 20px;
+  font-family: HelveticaNeue;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.77px;
+  text-align: center;
+  color: var(--black);
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 605px;
+  margin-top: 30px;
+  margin-top: 117px;
+  opacity: 0.9;
+  padding-top: 65px;
+  padding-bottom: 107px;
+  background-color: #fafafa;
+}
+
+.AUTitle {
+  margin-bottom: 20px;
+}
+
+.AUImg {
+  width: 178px;
+  height: 166px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.IOS {
+  width: 181.4px;
+  height: 52.8px;
+  padding: 8px 11.7px 7.4px 10.5px;
+  border-radius: 9.6px;
+  border: solid 0.6px var(--black);
+}
+
+.android {
+  width: 181.4px;
+  height: 52.8px;
+  margin-left: 15.1px;
+  padding: 8px 11.7px 7.4px 10.5px;
+  border-radius: 9.6px;
+  border: solid 0.6px var(--black);
+}
+
+.whereTodownload {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttonText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.googlePlayIcon {
+  @extend %storeIcons;
+  top: 5px;
+}
+
+.appleStoreIcon {
+  @extend %storeIcons;
+}
